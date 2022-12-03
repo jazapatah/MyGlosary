@@ -44,6 +44,7 @@
                         <li><a class="dropdown-item text-light" href="#J">J</a></li>
                         <li><a class="dropdown-item text-light" href="#R">R</a></li>
                         <li><a class="dropdown-item text-light" href="#S">S</a></li>
+                        <li><a class="dropdown-item text-light" href="#W">W</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -58,6 +59,11 @@
         </div>
     </nav>
     <!-- End Navbar -->
+    <!-- Start Scroll To Top Button -->
+    <button onclick="topFunction()" id="scrollTop" class="btn btn-danger" title="Go to top">
+      <i class="bi bi-chevron-double-up"></i>
+    </button>
+    <!-- End Scroll To Top Button -->
     <!-- Start Header -->
     <div class="contenedor">
         <img src="./assets/img/hero.jpg" alt="engineer" id="engineer">
@@ -363,15 +369,18 @@
               </div>
             </div>
           </div>
-          <!-- Start Accordion JS -->
+          <!-- End Accordion JS -->
         </div>
         <!-- End Accordion -->
         <div class="row">
-          <div class="card border-warning">
-            <h5 class="card-header border-warning pop">Frontend</h5>
-            <div class="card-body">
-              <p class="card-text rale">With supporting text below as a natural lead-in to additional content.</p>
-              <img src="..." alt="">
+          <div class="col">
+            <div class="card border-warning">
+              <h5 class="card-header border-warning pop">Frontend</h5>
+              <div class="card-body d-flex justify-content-around align-items-center">
+                <p class="card-text rale">The frontend is the part of web development that is dedicated to the front part of a website, in short the design of a website, from the structure of the site to the styles such as colors, backgrounds, sizes up to the animations and effects. It is that part of the page with which users interact with it, is all the code that runs in the browser of a user, which is called a client application, ie everything that the visitor sees and experiences directly.
+                </p>
+                <img src="./assets/img/frontend.jpg" width="17%" height="auto" class="rounded" alt="frontend">
+              </div>
             </div>
           </div>
         </div>
@@ -388,17 +397,19 @@
           <div class="col">
             <div class="card border-info">
               <h5 class="card-header border-info pop">Git</h5>
-              <div class="card-body">
-                <p class="card-text rale">With supporting text below as a natural lead-in to additional content.</p>
-                <img src="..." alt="">
+              <div class="card-body d-flex justify-content-around align-items-center">
+                <p class="card-text rale">Git is a distributed version control system, which means that a local clone of the project is a complete version control repository. These fully functional local repositories allow you to work offline or remotely with ease. Developers commit their work locally and then synchronize their copy of the repository with the copy on the server. This paradigm is different from centralized version control, where clients must synchronize code with a server before creating new versions.
+                </p>
+                <img src="./assets/img/git.png" width="16%" height="auto" class="rounded" alt="git">
               </div>
             </div>
             <br> <!-- Corregir -->
             <div class="card border-info">
               <h5 class="card-header border-info pop">Github</h5>
-              <div class="card-body">
-                <p class="card-text rale">With supporting text below as a natural lead-in to additional content.</p>
-                <img src="..." alt="">
+              <div class="card-body d-flex justify-content-around align-items-center">
+                <p class="card-text rale">GitHub is a hosting platform, owned by Microsoft, that offers developers the ability to create code repositories and securely store them in the cloud, using a version control system called Git.It facilitates the organization of projects and allows the collaboration of several developers in real time. In other words, it allows us to centralize the content of the repository to be able to collaborate with other members of our organization.
+                </p>
+                <img src="./assets/img/github.jpg" width="17%" height="auto" class="rounded" alt="github">
               </div>
             </div>
           </div>
@@ -415,17 +426,17 @@
           <div class="col">
             <div class="card border-dark">
               <h5 class="card-header border-dark pop">Hosting</h5>
-              <div class="card-body">
-                <p class="card-text rale">With supporting text below as a natural lead-in to additional content.</p>
-                <img src="..." alt="">
+              <div class="card-body d-flex justify-content-around align-items-center">
+                <p class="card-text rale">he web servers where your website files are housed, served, and maintained. A web server is a computer running web server software connected to the internet that allows visitors to access a website through an Internet-connected web browser or mobile device.</p>
+                <img src="./assets/img/hosting.png" width="17%" height="auto" class="rounded" alt="hosting">
               </div>
             </div>
             <br> <!-- Corregir -->
             <div class="card border-dark">
               <h5 class="card-header border-dark pop">HTML (Hyper Text Markup Language)</h5>
-              <div class="card-body">
-                <p class="card-text rale">With supporting text below as a natural lead-in to additional content.</p>
-                <img src="..." alt="">
+              <div class="card-body d-flex justify-content-around align-items-center">
+                <p class="card-text rale">HTML (HyperText Markup Language) is the most basic component of the Web. It defines the meaning and structure of web content. In addition to HTML, other technologies are generally used to describe the appearance/presentation of a web page (CSS) or the functionality/behavior (JavaScript).</p>
+                <img src="./assets/img/html.png" width="12%" height="auto" class="rounded" alt="html">
               </div>
             </div>
           </div>
@@ -442,9 +453,9 @@
           <div class="col">
             <div class="card border-primary">
               <h5 class="card-header border-primary pop">IDE (Integrated Development Environment)</h5>
-              <div class="card-body">
-                <p class="card-text rale">With supporting text below as a natural lead-in to additional content.</p>
-                <img src="..." alt="">
+              <div class="card-body d-flex justify-content-around align-items-center">
+                <p class="card-text rale">An integrated development environment (IDE) is a software application that helps programmers develop software code efficiently. It increases developer productivity by combining capabilities such as editing, creating, testing and packaging software into one easy-to-use application. Just as writers use text editors and accountants use spreadsheets, software developers use IDEs to facilitate their work.</p>
+                <img src="./assets/img/ide.jpg" width="17%" height="auto" class="rounded" alt="ide">
               </div>
             </div>
           </div>
@@ -461,9 +472,10 @@
           <div class="col">
             <div class="card border-secondary">
               <h5 class="card-header border-secondary pop">JavaScript (JS)</h5>
-              <div class="card-body">
-                <p class="card-text rale">With supporting text below as a natural lead-in to additional content.</p>
-                <img src="..." alt="">
+              <div class="card-body d-flex justify-content-around align-items-center">
+                <p class="card-text rale">JavaScript is a programming or scripting language that allows you to implement complex functions in web pages, any time a web page does more than just sit there and display static information for you to view, it displays timely content updates, interactive maps, 2D/3D Graphics animation, scrolling video player machines, etc., you can bet that JavaScript is probably involved. It's the third layer of the standard web technologies pie.
+                </p>
+                <img src="./assets/img/js.png" width="12%" height="auto" class="rounded" alt="js">
               </div>
             </div>
           </div>
@@ -479,10 +491,10 @@
         <div class="row">
           <div class="col">
             <div class="card border-success">
-              <h5 class="card-header border-success pop">Responsive Design (RWD)</h5>
-              <div class="card-body">
-                <p class="card-text rale">With supporting text below as a natural lead-in to additional content.</p>
-                <img src="..." alt="">
+              <h5 class="card-header border-success pop">Responsive Web Design (RWD)</h5>
+              <div class="card-body d-flex justify-content-around align-items-center">
+                <p class="card-text rale">A website that adjusts to the screen it is being viewed on, whether desktop, mobile or smartphone. Media queries are used to find the resolution of the device the website is being displayed on, then, flexible images, fluid grids and the site menu are adjusted to fit the screen.</p>
+                <img src="./assets/img/responsive.jpg" width="15%" height="auto" class="rounded" alt="responsive">
               </div>
             </div>
           </div>
@@ -499,16 +511,35 @@
           <div class="col">
             <div class="card border-danger">
               <h5 class="card-header border-danger pop">SEO (Search Engine Optimization)</h5>
-              <div class="card-body">
-                <p class="card-text rale">With supporting text below as a natural lead-in to additional content.</p>
-                <img src="..." alt="">
+              <div class="card-body d-flex justify-content-around align-items-center">
+                <p class="card-text rale">Designing a website so that search engines find the pages easily and index them. The goal is to have a page rank as high up on the results list as possible or be on the first results page, or at the very least on the second results page. Search engine optimization (SEO) includes the choice of keywords used in the text paragraphs and the placement of those words on the page, both visible and hidden inside meta tags.</p>
+                <img src="./assets/img/seo.png" width="15%" height="auto" class="rounded" alt="seo">
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <hr>
     <!-- End S -->
+    <!-- Start W -->
+    <section id="W" class="py-5">
+      <h2 class="display-5 text-decoration-underline text-center pop">W</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card border-warning">
+              <h5 class="card-header border-warning pop">Web Development</h5>
+              <div class="card-body d-flex justify-content-around align-items-center">
+                <p class="card-text rale">Web development is the process of creating and maintaining websites. It can involve a wide range of actions, from coding and design to content management and web server administration. Also, web development consists of using languages such as: HTML, CSS, JavaScript, and many others, all in order to write programs that will make your site practical, dynamic and agile. In addition, coding is part of a developer's daily life.</p>
+                <img src="./assets/img/web_development.jpg" width="16%" height="auto" class="rounded" alt="webdev">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End W -->
     <!-- Start Suggestions -->
     <section id="suggestions" class="pt-3 bg-secondary">
       <div class="container">
@@ -549,5 +580,6 @@
     <!-- End Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="./assets/js/app.js"></script>
 </body>
 </html>
